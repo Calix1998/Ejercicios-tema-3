@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main( String[] args )
+    {
+        double num1, num2, num3, suma;
+        Scanner teclado = new Scanner( System.in );
+        System.out.println("Introduce el primer numero:"); num1= teclado.nextDouble();
+        System.out.println("Introduce el segundo numero:"); num2= teclado.nextDouble();
+        System.out.println("Introduce el  tercer numero:"); num3= teclado.nextDouble();
+        suma= num1+num2+num3;
+        System.out.println("El resultado de la suma de " + num1 + " + " + num2 + " + " + num3 + " es igual a: "   + suma );
+    }
+}
